@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MiniProject\\project-6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\termsconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\termsconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\privacypolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\privacypolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|c:\\miniproject\\project-6\\project-6\\views\\users\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D50C60C8-F0A6-4124-AD7E-3FDD7DABCAA1}|project-6\\project-6.csproj|solutionrelative:project-6\\views\\users\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Shop.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Shop.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Shop.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Shop.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:26:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrivacyPolicy.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\PrivacyPolicy.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\PrivacyPolicy.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\PrivacyPolicy.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\PrivacyPolicy.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:13:06.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TermsConditions.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\TermsConditions.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\TermsConditions.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\TermsConditions.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\TermsConditions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:08:57.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswFgAAAC0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:09:51.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Login.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAACzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:09:41.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T18:33:56.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswA8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T18:33:37.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Item.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Item.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Item.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Item.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswHIAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T18:37:39.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfilePage.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\ProfilePage.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\ProfilePage.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\ProfilePage.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\ProfilePage.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:03:28.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Cart.cshtml",
+              "RelativeDocumentMoniker": "project-6\\Views\\Users\\Cart.cshtml",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Views\\Users\\Cart.cshtml",
+              "RelativeToolTip": "project-6\\Views\\Users\\Cart.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAIASwC8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T18:26:12.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\MiniProject\\project-6\\project-6\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "project-6\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\MiniProject\\project-6\\project-6\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "project-6\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:26:04.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

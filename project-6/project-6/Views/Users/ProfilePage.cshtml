@@ -1,0 +1,92 @@
+﻿@model project_6.Models.User
+
+@{
+    ViewBag.Title = "ProfilePage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- breadcrumb start -->
+<section class="about-breadcrumb">
+    <div class="about-back section-tb-padding" style="background-image: url(image/about-image.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="about-l">
+                        <ul class="about-link">
+                            <li class="go-home"><a href="index1.html">Home</a></li>
+                            <li class="about-p"><span>Profile</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb end -->
+<!-- order history start -->
+<section class="order-histry-area section-tb-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="order-history">
+                    <div class="profile">
+                        <div class="order-pro">
+                            <div class="pro-img">
+                                <a href="javascript:void(0)"><img src="~/Content/image/brand/images.png" alt="img" class="img-fluid"></a>
+                            </div>
+                            <div class="order-name">
+                                <h4>Andrew louise</h4>
+                                <span>Joined Aug 19, 2021</span>
+                            </div>
+                        </div>
+                        <div class="order-his-page">
+                            <ul class="profile-ul">
+                                <li class="profile-li"><a href="order-history.html"><span>Orders</span> <span class="pro-count">5</span></a></li>
+                                <li class="profile-li"><a href="profile.html" class="active">Profile</a></li>
+                                <li class="profile-li"><a href="pro-addresses.html">Address</a></li>
+                                <li class="profile-li"><a href="pro-wishlist.html"><span>Wishlist</span> <span class="pro-count">3</span></a></li>
+                                <li class="profile-li"><a href="pro-tickets.html"><span>My tickets</span> <span class="pro-count">4</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="profile-form">
+                        @using (Html.BeginForm("ProfilePage", "Users", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            
+                                <input type="hidden" name="UserID" value="@Model.UserID" />
+                                <ul class="pro-input-label">
+                                    <li>
+                                        <label>First name</label>
+                                        <input type="text" name="Fname_User" value="@Model.Fname_User" placeholder="First name">
+                                    </li>
+                                    <li>
+                                        <label>Last name</label>
+                                        <input type="text" name="Lname_User" value="@Model.Lname_User" placeholder="Last name">
+                                    </li>
+                                </ul>
+                                <ul class="pro-input-label">
+                                    <li>
+                                        <label>Email address</label>
+                                        <input type="email" name="User_Email" value="@Model.User_Email" placeholder="Email address" required>
+                                    </li>
+                                </ul>
+                                <ul class="pro-submit">
+                                    <li>
+                                        <input type="checkbox" name="Subscribe">
+                                        <label>Subscribe me to newsletter</label>
+                                    </li>
+                                    <li>
+                                        <button type="submit" class="btn btn-style1">Update profile</button>
+                                        @*<a href="@Url.Action("ProfilePage", "Users", new { id = Model.UserID })" class="btn btn-style1">Edit</a>*@
+                                    </li>
+                                </ul>
+                            
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- order history end -->

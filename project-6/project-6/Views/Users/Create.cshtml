@@ -1,0 +1,97 @@
+﻿@model project_6.Models.User
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- breadcrumb start -->
+<section class="about-breadcrumb">
+    <div class="about-back section-tb-padding" style="background-image:  url('/Content/image/about-image.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="about-l">
+                        <ul class="about-link">
+                            <li class="go-home"><a href="@Url.Action("Index", "Users")">Home</a></li>
+                            <li class="about-p"><span>Register</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb end -->
+<!-- registration start -->
+<section class="section-tb-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="register-area">
+                    <div class="register-box">
+                        <h1>Create Account</h1>
+                        <p>Please register below with your account details.</p>
+
+                        @using (Html.BeginForm("Create", "Users", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Fname_User, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Fname_User, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Fname_User, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Lname_User, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Lname_User, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Lname_User, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.User_Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.User_Email, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.User_Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.User_Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.User_Password, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.User_Password, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Create" class="btn btn-style1" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                    <div class="register-account">
+                        <h4>Already an account holder?</h4>
+                        <a href="@Url.Action("Login", "Users")" class="ceate-a">Log in</a>
+                        <div class="register-info">
+                            <a href="@Url.Action("TermsConditions", "Users")" class="terms-link"><span>*</span> Terms & conditions.</a>
+                            <p>Your privacy and security are important to us. For more information on how we use your data, read our <a href="@Url.Action("PrivacyPolicy", "Users")">privacy policy</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- registration end -->

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<project_6.Models.ShoppingCartItem>
+@{
+    ViewBag.Title = "Cart";
+}
+
+<!-- cart start -->
+
+    <section class="cart-page section-tb-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="cart-area">
+                        <div class="cart-details">
+                            <div class="cart-item">
+                                <span class="cart-head">My cart:</span>
+                                <span class="c-items">4 item</span>
+                            </div>
+                            @foreach(var item in Model) {
+                            <div class="cart-all-pro">
+                                <div class="cart-pro">
+                                    <div class="cart-pro-image">
+                                        <a href="product.html"><img src="@item.Product.Image_URL" class="img-fluid" alt="image"></a>
+                                    </div>
+                                    <div class="pro-details">
+                                        <h4><a href="product.html">@item.Product.Name</a></h4>
+                                        <span class="pro-size"><span class="size">Size:</span> 5kg</span>
+                                        <span class="pro-shop">Petro demo</span>
+                                        <span class="cart-pro-price">$@item.Product.Price CAD</span>
+                                    </div>
+                                </div>
+                                <div class="qty-item">
+                                    <div class="center">
+                                        <div class="plus-minus">
+                                            <span>
+                                                @using (Html.BeginForm("UpdateQuantity", "Users", new { id = item.ProductID, operation = "decrease" }, FormMethod.Post))
+                                                {
+                                                    <button type="submit" class="text-black">-</button>
+                                                }
+
+                                                <span>@item.Quantity</span>
+
+                                                @using (Html.BeginForm("UpdateQuantity", "Users", new { id = item.ProductID, operation = "increase" }, FormMethod.Post))
+                                                {
+                                                    <button type="submit" class="text-black">+</button>
+                                                }
+                                            </span>
+                                        </div>
+                                        @using (Html.BeginForm("DeleteItem", "Users", new { id = item.ProductID }, FormMethod.Post))
+                                        {
+                                            <button type="submit" class="pro-remove">Remove</button>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="all-pro-price">
+                                    <span>$384.51 CAD</span>
+                                </div>
+                            </div>
+                            }
+                        </div>
+                    </div><!-- cart end -->
+                </div>
+            </div>
+        </div>
+    </section>

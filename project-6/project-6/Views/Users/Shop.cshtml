@@ -1,0 +1,77 @@
+﻿@model IEnumerable<project_6.Models.Product>
+
+@{
+    ViewBag.Title = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- breadcrumb start -->
+<section class="about-breadcrumb">
+    <div class="about-back section-tb-padding" style="background-image: url(/Content/image/about-image.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="about-l">
+                        <ul class="about-link">
+                            <li class="go-home"><a href="index1.html">Home</a></li>
+                            <li class="about-p"><span>Category</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb end -->
+
+
+<div>
+    <dl class="dl-horizontal">
+        <section class="section-tb-padding blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="blog-style-1-full-grid">
+                            @foreach (var item in Model)
+                            {
+                                <div class="blog-start">
+                                    <div class="blog-post">
+                                        <div class="blog-image">
+                                            <a href="@Url.Action("Item", "Users", new { id = item.ID })">
+                                                <img src="@item.Image_URL" style="width:370.35px; height:370.35px;" alt="blog-image" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-title">
+                                                <h6><a href="blog-style-1-details.html">Fresh organics brand and picnic</a></h6>
+                                                <span class="blog-admin">By <span class="blog-editor">Ahmad Qadomi</span></span>
+                                            </div>
+                                            <p class="blog-description">@item.Description</p>
+                                            <a href="blog-style-1-details.html" class="read-link">
+                                                <span>Read more</span>
+                                                <i class="ti-arrow-right"></i>
+                                            </a>
+                                            <div class="blog-date-comment">
+                                                <span class="blog-date">15 Jan 2021</span>
+                                                <a href="javascript:void(0)">1 Comment</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.catImg)
+            </dt>*@
+
+        @*<dd>
+                <img src="#" alt="Alternate Text" />  @Html.DisplayFor(model => model.catImg)
+            </dd>*@
+
+    </dl>
+</div>
